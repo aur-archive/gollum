@@ -1,0 +1,10 @@
+post_install() {
+    echo "Before starting gollum, be sure to create the directory and run git
+    init. The example service file can be found in /usr/share/doc/gollum/. See
+    the homepage (https://github.com/gollum/gollum) for configuration options."
+}
+
+post_upgrade() {
+    echo "Before starting gollum, be sure to create the directory and run git
+    init."
+}
